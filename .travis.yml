@@ -1,7 +1,7 @@
 language: python
 sudo: True
 python:
-  - 3.9.6
+  - 3.9
 
 env:
   global:
