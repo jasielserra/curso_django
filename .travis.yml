@@ -6,5 +6,4 @@ python:
   - 3.8
 
 install:
-  - pip install -q pipenv codecov
   - pipenv sync --dev
