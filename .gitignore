@@ -107,3 +107,6 @@ venv.bak/
 # postres files for local developemnt
 
 .pgdata
+
+# Idea
+.idea

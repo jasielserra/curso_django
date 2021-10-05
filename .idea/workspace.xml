@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaf547c9-208b-44b0-94d4-edad9a1bcb41" name="Changes" comment="Configurado .flake8">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
