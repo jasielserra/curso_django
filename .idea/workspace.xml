@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaf547c9-208b-44b0-94d4-edad9a1bcb41" name="Changes" comment="Criada App Base.">
-      <change beforePath="$PROJECT_DIR$/pypro/base/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/tests.py" beforeDir="false" />
+    <list default="true" id="aaf547c9-208b-44b0-94d4-edad9a1bcb41" name="Changes" comment="Excluidas algumas pasta do pacote base">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633464336965</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Excluidas algumas pasta do pacote base">
+      <created>1633464568491</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1633464568491</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,7 +271,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Criado README do Projeto." />
     <MESSAGE value="Configurado TRAVIS CI and LICENSE" />
     <MESSAGE value="Adicionado Travis.yml" />
     <MESSAGE value="Alterada versão de Python no Travis.yml" />
@@ -294,6 +295,7 @@
     <MESSAGE value="Alterada versão do Python para 3.7.0 and Django 2.1.3 and Flake8 3.6.0" />
     <MESSAGE value="Configurado .flake8" />
     <MESSAGE value="Criada App Base." />
-    <option name="LAST_COMMIT_MESSAGE" value="Criada App Base." />
+    <MESSAGE value="Excluidas algumas pasta do pacote base" />
+    <option name="LAST_COMMIT_MESSAGE" value="Excluidas algumas pasta do pacote base" />
   </component>
 </project>
