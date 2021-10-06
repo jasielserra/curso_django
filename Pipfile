@@ -11,6 +11,8 @@ pytest-cov = "*"
 pytest-django = "*"
 
 [dev-packages]
+pytest-cov = "==2.6.0"
+codecov = "*"
 
 [requires]
 python_version = "3.7"
