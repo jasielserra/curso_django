@@ -12,8 +12,8 @@ pytest-django = "*"
 python-decouple = "==3.1"
 dj-database-url = "==0.5.0"
 psycopg2-binary = "==2.7.6.1"
-
-
+collectfast = "==0.6.2"
+django-s3-folder-storage = "==0.3"
 
 [dev-packages]
 pytest-cov = "==2.6.0"
