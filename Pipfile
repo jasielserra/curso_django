@@ -19,4 +19,4 @@ pytest-cov = "==2.6.0"
 codecov = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
