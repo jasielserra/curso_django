@@ -9,23 +9,17 @@ services:
 addons:
   postgresql: '9.5'
 
-env:
-  global:
-    - PIPENV_VENV_IN_PROJECT=1
-    - PIPENV_IGNORE_VIRTUALENVS=1
-
 install:
-  - pip install pipenv
-  - pipenv sync -d
+  - pip install -q -r requirements-dev.txt
   - cp contrib/env-sample .env
 
 before_script:
   - psql -c "CREATE DATABASE testdb;" -U postgres
 
 script:
-  - pipenv run flake8 .
-  - pipenv run pytest --cov=pypro
+  - flake8
+  - pytest --cov=pypro
 
 after_success:
-  - pipenv run codecov
+  - codecov
 
