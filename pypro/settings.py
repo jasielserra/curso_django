@@ -9,7 +9,6 @@ https://docs.djangoproject.com/en/2.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.1/ref/settings/
 """
-
 import os
 from functools import partial
 from decouple import Csv, config
@@ -29,10 +28,12 @@ DEBUG = config('DEBUG', cast=bool)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv()) #['devpro.jasielserra.com','devprodjango.herokuapp.com']
 
+AUTH_USER_MODEL = 'base.User'
 
 # Application definition
 
 INSTALLED_APPS = [
+    'pypro.base',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,7 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'collectfast',
     'django.contrib.staticfiles',
-    'pypro.base',
 ]
 
 MIDDLEWARE = [
