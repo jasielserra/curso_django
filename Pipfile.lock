@@ -71,14 +71,7 @@
             "index": "pypi",
             "version": "==0.5.0"
         },
-        "django": {
-            "hashes": [
-                "sha256:42573831292029639b798fe4d3812996bfe4ff3275f04566da90764daec011a5",
-                "sha256:f6d2c4069c9b9bfac03bedff927ea1f9e0d29e34525cec8a68fd28eb2a8df7af"
-            ],
-            "markers": "python_version >= '3.6'",
-            "version": "==3.2.8"
-        },
+
         "django-debug-toolbar": {
             "hashes": [
                 "sha256:8c5b13795d4040008ee69ba82dcdd259c49db346cf7d0de6e561a49d191f0860",
