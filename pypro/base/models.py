@@ -39,7 +39,7 @@ class UserManager(BaseUserManager):
 
 class User(AbstractBaseUser, PermissionsMixin):
     """
-    App base User class.
+    App aperitivos User class.
 
     Email and password are required. Other fields are optional.
     """
