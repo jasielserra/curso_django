@@ -19,3 +19,15 @@ def test_status_code(resp):
 )
 def test_titulo_video(resp, titulo):
     assert_contains(resp, titulo)
+
+
+@pytest.mark.parametrize(
+    'slug',
+    [
+        'motivacao',
+        'instalacao-windows'
+    ]
+)
+def test_link_video(resp, slug):
+    video_link = reverse('aperitivos:video', args=(slug,))
+    assert_contains(resp, video_link)
