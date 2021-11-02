@@ -1,4 +1,5 @@
 import pytest
+from model_mommy import mommy
 from django.urls import reverse
 
 from pypro.aperitivos.models import Video
@@ -7,9 +8,7 @@ from pypro.django_assertions import assert_contains
 # Create your tests here.
 @pytest.fixture
 def video(db):
-    v = Video(slug='motivacao', titulo='Video Aperitivo: Motivação', vimeo_id='251224475')
-    v.save()
-    return v
+    return mommy.make(Video)
 
 
 @pytest.fixture
