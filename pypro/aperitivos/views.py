@@ -3,15 +3,8 @@ from django.shortcuts import render, get_object_or_404
 # Create your views here.
 from pypro.aperitivos.models import Video
 
-videos = [
-    Video('motivacao', 'Video Aperitivo: Motivação', 251224475),
-    Video('instalacao-windows', 'Instalação Windows', 251497668),
-    ]
-
-videos_dct = {v.slug: v for v in videos}
-
-
 def indice(request):
+    videos = Video.objects.order_by('creation').all()
     return render(request, 'aperitivos/indice.html', context={'videos': videos})
 
 
