@@ -16,6 +16,7 @@ collectfast = "==0.6.2"
 django = "==2.2"
 sentry-sdk = "*"
 django-debug-toolbar = "*"
+django-ordered-model = "*"
 
 [dev-packages]
 pytest-cov = "==2.6.0"
