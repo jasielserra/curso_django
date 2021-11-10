@@ -17,6 +17,8 @@ django = "==2.2"
 sentry-sdk = "*"
 django-debug-toolbar = "*"
 django-ordered-model = "*"
+ipython = "*"
+django-extensions = "*"
 
 [dev-packages]
 pytest-cov = "==2.6.0"
