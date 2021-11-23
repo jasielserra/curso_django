@@ -14,7 +14,9 @@ INTERNAL_IPS=127.0.0.1
 #Configuração do Sentry
 SENTRY_DSN=
 
-EMAIL_BACKEND = django.core.mail.backends.console.EmailBackend
+# Configurações de Email
+
+EMAIL_BACKEND=django.core.mail.backends.console.EmailBackend
 EMAIL_HOST=localhost
 EMAIL_PORT=25
 EMAIL_HOST_USER=
